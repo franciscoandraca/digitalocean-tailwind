@@ -53,4 +53,47 @@
           </div>
         </div>
     </div>
+        <div class="pt-32 pb-48 relative z-0" style="
+    background: #f9fafe no-repeat center url(https://www.digitalocean.com/_next/static/media/floating-console-home-desktop-background.33702df4.svg);
+    background-size: cover;
+    " 
+>
+        <div class="flex items-center container mx-auto">
+            <div class="w-1/2">
+                <h1 class="text-4xl font-bold tracking-tighter">
+                    The cloud is complex.
+                    Whe make it simple.
+                </h1>
+                <p class="mt-5 text-2xl font-medium text-gray-500 tracking-tighter">
+                    Whatever your vision—a SaaS app, an AI/ML business, a website, an eCommerce store—build it here using DigitalOcean's simple, cost-effective cloud hosting services.
+                </p>
+            </div>
+            <div class="w-1/2">
+                <div class="mb-5 font-medium">
+                    Welcome to DigitalOcean. Sing up to ger started!
+                </div>
+                <form action="">
+                    <div class="flex flex-col gap-y-5 w-4/5 my-6">
+                        <input class="px-5 py-4 rounded-lg border border-gray-400 focus:border-gray-600 shadow-xl hover:shadow-sm focus:shadow outline-none" type="text" placeholder="First name">
+                        <input class="px-5 py-4 rounded-lg border border-gray-400 focus:border-gray-600 shadow-xl hover:shadow-sm focus:shadow outline-none" type="text" placeholder="Email">
+                        <input class="px-5 py-4 rounded-lg border border-gray-400 focus:border-gray-600 shadow-xl hover:shadow-sm focus:shadow outline-none" type="password" placeholder="Password">
+                    </div>
+                    <div class="flex justify gap-x-4">
+                        <button class="w-2/4 px-3 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-900 active:bg-blue-500 active:text-sky-400  font-bold">Deploy in seconds</button>
+                        <button class="px-3 py-3 bg-gray-200 hover:bg-gray-300 rounded-lg">
+                            <img src="https://www.digitalocean.com/_next/static/media/google-logo.76778576.svg">
+                        </button>
+                        <button class="px-3 py-3 bg-gray-200 hover:bg-gray-300 rounded-lg"><img src="https://www.digitalocean.com/_next/static/media/github-logo.7b98a572.svg">
+                        </button>
+                    </div>
+                    <div class="mt-3 text-gray-500">
+                        By signing up you agree to the 
+                        <a href="#" class="underline font-light">
+                            Terms of Service
+                        </a> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </template>
